@@ -1,0 +1,308 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+*{
+    text-transform: capitalize;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+a{
+  
+  text-decoration: none;
+  margin: 10px;
+  color: black;
+  letter-spacing: 4px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+a:hover{
+    background-color: gray;
+   
+}
+li{
+    list-style: none;
+    display: inline-block;
+    
+}
+#hero{
+    width: 100%;
+    height: 700px;
+}
+.container{
+    position: relative;
+    
+   
+    
+    
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    padding: 10px;
+    font-size: 30px;
+    gap: 10px;
+    color: aliceblue;
+}
+.cards{
+    
+    
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+    gap: 10px;
+    
+}
+#summer{
+    height: 200px;
+    width: 330px;
+    
+}
+.firstimage{
+    position: relative;
+    
+}
+.firsttext{
+    position: absolute;
+    top: 1px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    
+    
+}
+#brick{
+    height: 200px;
+    width: 330px;
+    margin-left: 10px;
+}
+.secondimage{
+    position: relative;
+}
+.secondtext{
+    position: absolute;
+    top: 1px;
+    left: 12px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 18px;
+}
+#renovated{
+    height: 200px;
+    width: 330px;
+    margin-left: 10px;
+}
+.thirdimage{
+    position: relative;
+}
+.thirdtext{
+    position: absolute;
+    top: 1px;
+    left: 12px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 18px;
+}
+#barn{
+    height: 200px;
+    width: 330px;
+    margin-left: 10px;
+}
+.fourthimage{
+    position: relative;
+}
+.fourthtext{
+    position: absolute;
+    top: 1px;
+    left: 10px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 18px;
+
+}
+#para{
+    padding: 50px;
+    line-height: 20px;
+    font-family: serif;
+}
+#jonimage{
+    height: 200px;
+    width: 300px;
+    
+}
+#janeimage{
+    height: 200px;
+    width: 300px;
+    
+}
+#mikeimage{
+    height: 200px;
+    width: 300px;
+    
+}
+#starimage{
+    height: 200px;
+    width: 300px;
+    
+}
+.johnimage{
+    margin: 10px;
+    margin-left: 40px;
+}
+.imagestext{
+    display: flex;
+}
+.johntext{
+    margin-left: 35px;
+    font-size: larger;
+    font-weight: lighter;
+    
+}
+#janedoe{
+    margin-left: 260px;
+    font-size: larger;
+    font-weight: lighter;
+    
+}
+#mikeross{
+    margin-left: 265px;
+    font-size: larger;
+    font-weight: lighter;
+    
+}
+#dan{
+    margin-left: 250px;
+    font-size: larger;
+    font-weight: lighter;
+    
+}
+.paragraph{
+    margin-left: 35px;
+    margin-top: 20px;
+   
+}
+.Architects{
+    margin-left: 250px;
+}
+.mArchitect{
+    margin-left: 290px;
+}
+.sArchitect{
+    margin-left: 290px
+}
+.paragraf{
+    margin-left: 35px;
+    
+    margin-top: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: medium;
+   display: flex;
+}
+.paragraf2{
+    margin-left: 60px;
+}
+.paragraf3{
+    margin-left: 60px;
+}
+.button{
+margin-left: 30px;
+display: flex;  
+margin-top: 20px; 
+margin-bottom: 80px;
+}
+.button1{
+    height: 30px;
+    width: 300px;
+}
+.button2{
+    margin-left: 55px;
+    height: 30px;
+    width: 300px;
+}
+.button3{
+    margin-left:55px;
+    height: 30px;
+    width: 300px;
+}
+.button4{
+    margin-left: 50px;
+    height: 30px;
+    width: 300px;
+}
+#head4{
+    margin-left: 30px;
+    font-size: x-large;
+    font-weight: lighter;
+}
+#par1{
+    margin-left: 30px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.input{
+    width: 90%;
+    height: 40px;
+    margin: 10px;
+    margin-left: 30px;
+}
+#messagebutton{
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 150px;
+    margin-bottom: 20px;
+    font-size: large;
+}
+#messagebutton:hover{
+    background-color: gray;
+    border: none;
+
+}
+
+.button1:hover {
+    background-color: gray;
+}
+    
+.button2:hover {
+    background-color: gray;
+    
+  }
+.button3:hover {
+    background-color: gray;
+    
+  }
+.button4:hover {
+ 
+    background-color:darkgrey
+   
+  }
+  #trafic{
+    width: 100%;
+    height: 900px;
+    padding: 20px;
+    
+  }
+  .bottomnav{
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+  }
+  #footertext{
+    margin-top: 30px;
+  }
